@@ -7,7 +7,7 @@
         $sql="SELECT idK,email FROM kozmeticar WHERE email LIKE '$pomocna%'ORDER BY email";
         $rezultat = $conn->query($sql);
         if (mysqli_num_rows($rezultat)==0){
-            echo "U bazi ne postoji email koji počinje na " . $pomocna;
+            echo "U bazi ne postoji email koji počinje ovako " . $pomocna;
         } else {
             while($red = $rezultat->fetch_object()){
             ?>
