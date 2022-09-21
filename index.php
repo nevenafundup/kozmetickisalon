@@ -1,6 +1,8 @@
 <?php
-    
+    include 'loginregister.php'; 
 ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
